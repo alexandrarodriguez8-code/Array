@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de estudiantes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Buscador de estudiantes</h1>
+    
+
+    <form id="formulario-busqueda">
+        <label for="nombre">Nombre del estudiante:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre el estudiante" autocomplete="off" required>
+        <button type="submit">Buscar estudiante</button>
+    </form>
+
+    <p id="resultado" role="status" aria-live="polite">Hay 7 estudiantes disponibles.</p>
+    <h2>Estudiantes disponibles</h2>
+    <ul id="lista-estudiantes"></ul>
+    <p><a href="index.html">Volver al inicio</a></p>
+
+    <script src="js/ejercicio4.js" defer></script>
+</body>
+</html>
